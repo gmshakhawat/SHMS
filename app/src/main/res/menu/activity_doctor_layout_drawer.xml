@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/doctorProfile"
+
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/doctorRequest"
+            android:title="Request" >
+
+        </item>
+
+        <item
+            android:id="@+id/doctorAppointmentList"
+            android:title="Appointment List" />
+        <item
+            android:id="@+id/doctorPatientfind"
+            android:title="Patient" >
+
+        </item>
+
+        <item
+            android:id="@+id/doctorDegree"
+            android:title="Add Degree" >
+
+        </item>
+
+
+
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/DoctorLogout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

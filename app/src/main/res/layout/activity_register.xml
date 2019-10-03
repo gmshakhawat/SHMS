@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bd"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <RelativeLayout
+        android:id="@+id/background"
+        android:layout_width="309dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="40dp">
+
+        <ImageView
+            android:id="@+id/logoId"
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="127dp"
+            android:layout_marginTop="3dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/logo"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo"
+            tools:ignore="HardcodedText" />
+
+
+        <TextView
+            android:id="@+id/registerId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="52dp"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/nameId"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="108dp"
+            android:ems="10"
+            android:hint="Name"
+            android:importantForAutofill="no"
+            android:linksClickable="true"
+            android:longClickable="false"
+            android:textColor="@color/white"
+            tools:targetApi="o"
+   />
+
+
+        <EditText
+            android:id="@+id/passwordId"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="420dp"
+            android:ems="10"
+            android:hint="@string/password"
+            android:importantForAutofill="no"
+            android:textColor="@color/white"
+            tools:targetApi="o"
+            />
+
+
+        <EditText
+            android:id="@+id/ageId"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="153dp"
+            android:ems="10"
+            android:hint="@string/age"
+            android:textColor="@color/white"
+            tools:targetApi="o"
+            />
+
+        <EditText
+            android:id="@+id/emailId"
+            android:layout_width="278dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ageId"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="7dp"
+            android:ems="10"
+            android:hint="@string/email"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white"
+            tools:targetApi="o"
+            />
+
+        <EditText
+            android:id="@+id/phonenumberId"
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="256dp"
+            android:ems="10"
+            android:hint="@string/phone_no"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:textColor="@color/white"
+            tools:targetApi="o"
+          />
+
+        <EditText
+            android:id="@+id/userNID"
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="307dp"
+            android:ems="10"
+            android:hint="NID Number"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textColor="@color/white"
+            tools:targetApi="o"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="113dp"
+            android:layout_marginTop="355dp"
+            android:text="OR"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/userBC"
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="378dp"
+            android:ems="10"
+            android:hint="Birth Certificate Number"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textColor="@color/white"
+            tools:targetApi="o"
+            />
+
+        <Button
+            android:id="@+id/signinId"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="93dp"
+            android:layout_marginBottom="104dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="Register"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/PatientId"
+            android:layout_width="121dp"
+            android:layout_height="64dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginBottom="179dp"
+            android:text="@string/patient"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/DoctorId"
+            android:layout_width="126dp"
+            android:layout_height="65dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="180dp"
+            android:text="@string/doctor"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

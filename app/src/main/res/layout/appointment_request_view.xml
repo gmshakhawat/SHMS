@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#113A5E"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="191dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/pName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="M shakhawat Hossain"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:layout_gravity="center"
+                android:background="#000"
+                android:layout_marginBottom="3dp">
+                <TextView
+                    android:id="@+id/pApDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="10-06-2019"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/appointmentRequestApprove"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#20C35C"
+                    android:gravity="center"
+                    android:onClick="DeleteTask"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:padding="5dp"
+                    android:textSize="13dp"
+                    android:text="Appointment"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+</LinearLayout>
+</RelativeLayout>

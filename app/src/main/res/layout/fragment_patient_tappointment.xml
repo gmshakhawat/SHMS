@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".patientTappointment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+
+        android:gravity="center_horizontal"
+        android:background="@color/sky"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="center_horizontal"
+            android:text="Take your Appointment"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="20dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+
+
+            <Spinner
+                android:id="@+id/doctorListSpinner"
+                android:layout_width="184dp"
+                android:layout_height="43dp">
+            </Spinner>
+
+            <TextView
+                android:id="@+id/doctorListfromView"
+                android:layout_width="184dp"
+                android:background="#fff"
+                android:textSize="20sp"
+                android:text="Dr. Thomas"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="43dp">
+
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#d4d4d4"
+            android:hint="Select Date"
+            android:padding="15dp"
+            android:textColor="#090"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/patientAppointmentButtonId"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Appointment" />
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

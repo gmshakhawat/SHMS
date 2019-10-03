@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/patientProfile"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/patientDoctorListView"
+            android:title="Available Doctor"
+            />
+        <item
+            android:id="@+id/patientDataView"
+            android:title="My Previous Data"
+            />
+
+
+        <item
+            android:id="@+id/patientDataInput"
+            android:title="Check Condition" />
+        <item
+            android:id="@+id/patientAppointment"
+            android:title="Take Appointment" />
+        <item
+            android:id="@+id/patientRequest"
+            android:title="My Request" />
+
+
+        <item
+            android:id="@+id/patientAppointmentView"
+            android:title="My Appointment"
+            />
+
+
+
+
+
+    </group>
+
+    <item android:title="">
+        <menu>
+
+            <item
+                android:id="@+id/patientLogout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorblack">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="gradStart">#F591C9D4</color>
+    <color name="gradStop">#87BFD3</color>
+    <color name="navyblue">#0d035b</color>
+    <color name="sky">#9AA1AF</color>
+    <color name="greenlight">#f5fff4</color>
+    <color name="green">#8edc93</color>
+    <color name="forgetPass">#F5DF713F</color>
+
+</resources>

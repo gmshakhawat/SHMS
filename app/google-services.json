@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "482409214766",
+    "firebase_url": "https://shms-28ab0.firebaseio.com",
+    "project_id": "shms-28ab0",
+    "storage_bucket": "shms-28ab0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482409214766:android:d7522e1603f36d49",
+        "android_client_info": {
+          "package_name": "com.example.nusrat.smarthealthmonitoringsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482409214766-g5tij9cet6111f78ruj73feivdrdfe9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbSyU05NEIjrHNsow9FGuKw2Pgg5ngKKA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

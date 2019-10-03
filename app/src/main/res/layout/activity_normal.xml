@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/new_bg"
+    android:orientation="vertical"
+    tools:context=".Normal">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/normalcontainer"
+        >
+
+    </FrameLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="Normal"
+        android:textColor="@color/colorblack"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/msg"
+        android:text="your "
+        android:textColor="#068746"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/reportDoctor"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Click here to report the doctor"
+        android:textColor="#fff"
+        android:background="#008000"/>
+
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="30dp"
+            android:layout_marginTop="60dp"
+            android:background="@color/green">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="181dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Medicin"
+                    android:textColor="@color/colorblack"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="74dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Doctor"
+                    android:textColor="@color/colorblack"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="229dp"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginVertical="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Atebit-25-50mg"
+                    android:textColor="@color/colorblack"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="227dp"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginVertical="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Dr.Farjana Ahmed"
+                    android:textColor="@color/colorblack"
+                    android:textSize="20sp" />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="229dp"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginVertical="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Glibenol-2.5-5 mg"
+                    android:textColor="@color/colorblack"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="227dp"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginVertical="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Dr.Yeasmeen "
+                    android:textColor="@color/colorblack"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="229dp"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginVertical="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Velsertil-120mg"
+                    android:textColor="@color/colorblack"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="227dp"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginVertical="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Dr.Tassafi"
+                    android:textColor="@color/colorblack"
+                    android:textSize="20sp" />
+
+
+            </TableRow>
+        </TableLayout>
+
+    <Button
+        android:id="@+id/appoinmentId"
+        android:layout_width="185dp"
+        android:layout_height="79dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="123dp"
+        android:text="Appointment Doctor"
+        android:textColor="@color/colorblack"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
